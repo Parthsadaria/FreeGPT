@@ -1,37 +1,32 @@
-# Loki.AI API 🌟  
-**Powerful AI Integration at Your Fingertips**  
+# 🌟 Loki.AI API Documentation
+> *Powerful AI Integration at Your Fingertips*
 
-Made With ❤️ by **Parth Sadaria**  
+[![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red.svg)](https://github.com/parthsadaria) 
+[![Developer](https://img.shields.io/badge/Developer-Parth%20Sadaria-blue.svg)](https://github.com/parthsadaria)
 
----
+## 🚀 Quick Start Guide
 
-## 🚀 Quick Start Guide  
+### Base URL
+```
+https://parthsadaria-lokiai.hf.space
+```
 
-### **Base URL**  
-`https://parthsadaria-lokiai.hf.space`  
+### API Endpoints
+| Endpoint | URL | Description |
+|----------|-----|-------------|
+| Chat Completions | `/chat/completions` | Main chat interface |
+| SearchGPT | `/searchgpt?q=todays news` | Search functionality |
+| Models | `/models` | Available models list |
 
-### **Chat Completion URL**  
-`https://parthsadaria-lokiai.hf.space/chat/completions`  
+> 🎉 **Supports streaming functionality!**
 
-### **Searchgpt URL**  
-`https://parthsadaria-lokiai.hf.space/searchgpt?q=todays news`  
+## 🛡️ Authentication
+**No authentication required!** 
 
-Supports **stream** functionality! 🎉  
+🎊 **It's completely FREE!** 
 
----
+## 📦 Request Format
 
-## 🔮 Models Endpoint  
-`https://parthsadaria-lokiai.hf.space/models`  
-
----
-
-## 🛡️ Authentication  
-**NO AUTHENTICATION REQUIRED!**  
-Yes, it's **FREE**! WOHOOOOO!! 🥳  
-
----
-
-## 📦 Request Format  
 ```json
 {
     "model": "gpt-4o",
@@ -45,9 +40,8 @@ Yes, it's **FREE**! WOHOOOOO!! 🥳
 }
 ```
 
----
+## 📤 Response Format
 
-## 📤 Response Format  
 ```json
 {
   "id": "chatcmpl-89DmxGJl4oqEultjlLBnGfdkV7Euk",
@@ -72,16 +66,15 @@ Yes, it's **FREE**! WOHOOOOO!! 🥳
 }
 ```
 
----
+## 🛠️ Example Usage
 
-## 🛠️ Example Usage  
 ```python
-import openai  
+import openai
 
-# Set API details  
-api_key = ''  # No key needed, but hampe to he hi no :p  
-openai.api_base = "https://parthsadaria-lokiai.hf.space"  
-openai.api_key = api_key  
+# Set API details
+api_key = ''  # No key needed!
+openai.api_base = "https://parthsadaria-lokiai.hf.space"
+openai.api_key = api_key
 
 def chat_with_gpt():
     try:
@@ -97,42 +90,38 @@ def chat_with_gpt():
 chat_with_gpt()
 ```
 
+## 🎨 Available Models
+
+### GPT Family
+- `gpt-4`
+- `gpt-4-turbo`
+- `gpt-4o`
+- `gpt-3.5-turbo`
+
+### Llama Family
+- `llama-3.1-7b`
+- `llama-3.1-405b`
+- `llama-3.1-80b`
+
+### Gemini Models
+- `gemini-pro`
+- `gemini-pro-vision`
+
+### Mistral Models
+- `mistral-medium`
+- `mixtral-8x7b`
+
+> 📚 For a complete list of models, visit: [Models Documentation](https://parthsadaria-lokiai.hf.space/models)
+
+## 🤝 Community
+
+Join our thriving community of developers:
+[![Discord](https://img.shields.io/badge/Join%20Us%20on-Discord-7289DA.svg)](https://dsc.gg/chadgang)
+
 ---
 
-## 🎨 Available Models  
-For detailed info, visit:  
-👉 [https://parthsadaria-lokiai.hf.space/models](https://parthsadaria-lokiai.hf.space/models)  
+<div align="center">
+  
+### Built with ❤️ by Parth Sadaria
 
-Here’s a list of supported models:  
-- **GPT Family**  
-  - `gpt-4`  
-  - `gpt-4-turbo`  
-  - `gpt-4o`  
-  - `gpt-3.5-turbo`  
-  - Many more...  
-
-- **Llama Family**  
-  - `llama-3.1-7b`  
-  - `llama-3.1-405b`  
-  - `llama-3.1-80b`  
-
-- **Gemini**  
-  - `gemini-pro`  
-  - `gemini-pro-vision`  
-
-- **Mistral**  
-  - `mistral-medium`  
-  - `mixtral-8x7b`  
-
-- And a lot more!  
-
----
-
-## 🚀 Get Started Now  
-Ready to integrate Loki.AI into your application?  
-
-Join our [**Discord Community**](dsc.gg/chadgang) to connect with other developers and share your experience!  
----
-
-**Built with ❤️ by Parth Sadaria**  
-```
+</div>
