@@ -93,9 +93,8 @@ chat_with_gpt()
 ## 🎨 Available Models
 
 ### GPT Family
-- `gpt-4`
-- `gpt-4-turbo`
 - `gpt-4o`
+- `gpt-4o-mini`
 - `gpt-3.5-turbo`
 
 ### Llama Family
@@ -105,19 +104,13 @@ chat_with_gpt()
 
 ### Gemini Models
 - `gemini-pro`
-- `gemini-pro-vision`
+- `gemini-1.5-flash`
 
 ### Mistral Models
 - `mistral-medium`
 - `mixtral-8x7b`
 
 > 📚 For a complete list of models, visit: [Models Documentation](https://parthsadaria-lokiai.hf.space/models)
-
-## 🤝 Community
-
-Join our thriving community of developers:
-[![Discord](https://img.shields.io/badge/Join%20Us%20on-Discord-7289DA.svg)](https://dsc.gg/chadgang)
-
 ---
 
 <div align="center">
